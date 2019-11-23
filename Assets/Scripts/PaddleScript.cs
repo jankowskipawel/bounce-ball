@@ -35,7 +35,6 @@ public class PaddleScript : MonoBehaviour
         }
 
         Vector3 pos = transform.position;
-        maxX = 13;
         pos.x = Mathf.Clamp(pos.x, -maxX, maxX);
         transform.position = pos;
     }
